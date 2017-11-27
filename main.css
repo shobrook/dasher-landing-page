@@ -58,12 +58,12 @@
 /* Navigation */
 
 .navBar {
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
 .logo {
-    position: fixed;
+    position: absolute;
     padding-top: 30px;
     padding-left: 62px;
 }
@@ -73,7 +73,7 @@
 }
 
 .navigation {
-    position: fixed;
+    position: absolute;
     float: right;
     padding-top: 45px;
     padding-right: 62px;
@@ -84,7 +84,7 @@
 }
 
 .navigation a {
-    padding-left: 25px;
+    padding-left: 35px; /* 30px */
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -102,7 +102,7 @@
 .header h1 {
     position: relative;
     padding-top: 225px;
-    padding-left: 158px;
+    padding-left: 165px; /* 158px */
     width: 450px;
     font-family: FoundersGrotesk-Light;
     font-weight: 100;
@@ -115,7 +115,7 @@
 #subheading {
     position: relative;
     padding-top: 4px;
-    padding-left: 158px;
+    padding-left: 165px; /* 158px */
     width: 420px;
     font-family: Roboto-Light;
     font-size: 18px;
@@ -126,7 +126,7 @@
 
 .buttons {
     padding-top: 40px;
-    padding-left: 158px;
+    padding-left: 165px; /* 158px */
 }
 
 .buttons .CTA {
@@ -150,7 +150,7 @@
     position: relative;
     float: right;
     margin-top: -37.5px;
-    padding-right: 901px;
+    padding-right: 894px; /* 901px */
     font-family: Roboto-Light;
     font-size: 16px;
     color: #FFFFFF;
