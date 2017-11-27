@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("assets/fonts/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("assets/fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("assets/fonts/roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("assets/fonts/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url("assets/fonts/roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url("assets/fonts/roboto/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("assets/fonts/roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: FoundersGrotesk-Light;
+    src: url("assets/fonts/founders-grotesk/FoundersGrotesk-Light.otf");
+}
+
+@font-face {
+    font-family: FoundersGrotesk-Regular;
+    src: url("assets/fonts/founders-grotesk/FoundersGrotesk-Regular.otf");
+}
+
+.aboveTheFold {
+    background-image: url("assets/images/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 807px;
+}
+
+/* Navigation */
+
+.navBar {
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    position: fixed;
+    padding-top: 30px;
+    padding-left: 62px;
+}
+
+#logo {
+    height: 42px;
+}
+
+.navigation {
+    position: fixed;
+    float: right;
+    padding-top: 45px;
+    padding-right: 62px;
+    right: 0;
+    font-family: Roboto-Light;
+    font-size: 16px;
+    letter-spacing: .65px;
+}
+
+.navigation a {
+    padding-left: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.unselected {
+    opacity: .65;
+}
+
+.navigation a:hover {
+    opacity: 1;
+}
+
+/* Header */
+
+.header h1 {
+    position: relative;
+    padding-top: 225px;
+    padding-left: 158px;
+    width: 450px;
+    font-family: FoundersGrotesk-Light;
+    font-weight: 100;
+    font-size: 62px;
+    letter-spacing: 2.5px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+
+#subheading {
+    position: relative;
+    padding-top: 4px;
+    padding-left: 158px;
+    width: 420px;
+    font-family: Roboto-Light;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.buttons {
+    padding-top: 40px;
+    padding-left: 158px;
+}
+
+.buttons .CTA {
+    position: relative;
+    display: block;
+    height: 55px;
+    width: 230px;
+    background-color: #FF294E;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+}
+
+.buttons p {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: -37.5px;
+    padding-right: 901px;
+    font-family: Roboto-Light;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.buttons a {
+    padding-left: 25px;
+    letter-spacing: 1.3px;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.buttons a:hover {
+    opacity: .75;
+}
+
+/* How it Works */
+
+.howItWorks {
+    padding-top: 90px;
+}
+
+.heading .robot {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 160px;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 23px;
+    text-align: center;
+}
+
+.heading h3 {
+    font-family: FoundersGrotesk-Light;
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    color: #3A424E;
+}
+
+.heading h2 {
+    padding-top: 7px;
+    font-family: FoundersGrotesk-Regular;
+    font-weight: 100;
+    font-size: 41px;
+    letter-spacing: 1.1px;
+    color: #3A424E;
+}
