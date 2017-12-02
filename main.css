@@ -48,6 +48,10 @@
     src: url("assets/fonts/founders-grotesk/FoundersGrotesk-Regular.otf");
 }
 
+html {
+    background-color: #FFFFFF; /* #FAFCFF */
+}
+
 .aboveTheFold {
     background-image: url("assets/images/background.png");
     background-size: 100%;
@@ -116,7 +120,7 @@
     position: relative;
     padding-top: 4px;
     padding-left: 165px; /* 158px */
-    width: 420px;
+    width: 450px;
     font-family: Roboto-Light;
     font-size: 18px;
     letter-spacing: 1.3px;
@@ -133,26 +137,31 @@
     position: relative;
     display: block;
     height: 55px;
-    width: 230px;
-    background-color: #FF294E;
+    width: 205px;
+    background-color: #FF294E; /* #FF4B5D */
     font-family: Roboto-Medium;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1.3px;
     color: #FFFFFF;
     outline: none;
     border: none;
     border-radius: 50px 50px 50px 50px;
     cursor: pointer;
+    transition: .1s;
+}
+
+.buttons .CTA:hover {
+    background-color: #D12240;
 }
 
 .buttons p {
     display: block;
     position: relative;
-    float: right;
+    float: left;
     margin-top: -37.5px;
-    padding-right: 894px; /* 901px */
+    padding-left: 231px;
     font-family: Roboto-Light;
-    font-size: 16px;
+    font-size: 15px;
     color: #FFFFFF;
 }
 
@@ -161,6 +170,7 @@
     letter-spacing: 1.3px;
     text-decoration: underline;
     color: #FFFFFF;
+    transition: .1s;
 }
 
 .buttons a:hover {
@@ -177,30 +187,71 @@
     position: relative;
     display: block;
     margin: 0 auto;
-    height: 160px;
+    height: 120px; /* 160px */
 }
 
 .title {
     position: relative;
     display: block;
     margin: 0 auto;
-    padding-top: 23px;
+    padding-top: 17px; /* 23px */
     text-align: center;
 }
 
 .heading h3 {
     font-family: FoundersGrotesk-Light;
     font-weight: 100;
-    font-size: 30px;
-    letter-spacing: 1.1px;
+    font-size: 22px; /* 30px */
+    letter-spacing: 1px;
     color: #3A424E;
 }
 
 .heading h2 {
-    padding-top: 7px;
+    padding-top: 6px;
     font-family: FoundersGrotesk-Regular;
     font-weight: 100;
-    font-size: 41px;
+    font-size: 31px;
     letter-spacing: 1.1px;
     color: #3A424E;
+}
+
+.importGithubs .one {
+    position: relative;
+    padding-top: 155px;
+    padding-left: 165px;
+    height: 180px;
+}
+
+.importGithubs .step {
+    position: relative;
+    margin-top: -115px;
+    padding-left: 225px;
+}
+
+.importGithubs .step h3 {
+    width: 190px;
+    font-family: FoundersGrotesk-Regular;
+    font-weight: 100;
+    font-size: 31px;
+    letter-spacing: 1.3px;
+    color: #3A424E;
+}
+
+.importGithubs .step p {
+    padding-top: 8px;
+    width: 350px;
+    font-family: Roboto-Light;
+    font-size: 18px;
+    letter-spacing: .9px;
+    line-height: 25px;
+    color: #3A424E;
+    opacity: .75;
+}
+
+.importGithubs img {
+    position: relative;
+    margin-top: -325px;
+    float: right;
+    padding-right: 165px;
+    height: 400px;
 }
