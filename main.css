@@ -313,3 +313,11 @@ html {
     width: 350px;
 }
 
+.codeAnalysis img {
+    position: relative;
+    margin-top: -325px;
+    float: right;
+    padding-right: 158px;
+    height: 400px;
+}
+
