@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="183px" height="400px" viewBox="0 0 183 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="22.2915355%" x2="125.994988%" y2="114.396043%" id="linearGradient-1">
+            <stop stop-color="#EDF8FB" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-65" transform="translate(-428.000000, -2785.000000)" fill="#F8FAFC">
+        <g id="Group-65" transform="translate(-416.000000, -2815.000000)" fill="url(#linearGradient-1)">
             <g id="Group-23">
                 <g id="Group-44" transform="translate(0.000000, 1430.000000)">
-                    <g id="Group-75" transform="translate(118.000000, 1270.000000)">
-                        <g id="1" transform="translate(310.000000, 0.000000)">
-                            <g transform="translate(0.000000, 85.000000)" id="Group-50">
+                    <g id="Group-75" transform="translate(416.000000, 1224.000000)">
+                        <g id="1">
+                            <g transform="translate(0.000000, 161.000000)" id="Group-50">
                                 <g>
                                     <path d="M0,132.063492 L74.9791667,132.063492 L74.9791667,400 L183,400 L183,0 L98.4895833,0 C83.875,41.9047619 55.9166667,60.952381 0,60.952381 L0,132.063492 Z" id="1"></path>
                                 </g>
