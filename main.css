@@ -48,6 +48,11 @@
     src: url("assets/fonts/founders-grotesk/FoundersGrotesk-Regular.otf");
 }
 
+@font-face {
+    font-family: FoundersGrotesk-Medium;
+    src: url("assets/fonts/founders-grotesk/FoundersGrotesk-Medium.otf");
+}
+
 html {
     background-color: #FFFFFF; /* #FAFCFF */
 }
@@ -78,6 +83,13 @@ html {
 
 .navigation {
     position: absolute;
+    font-family: Roboto-Light;
+    font-size: 16px;
+    letter-spacing: .65px;
+}
+
+.navBar .navigation {
+    position: absolute;
     float: right;
     padding-top: 45px;
     padding-right: 70px;
@@ -87,7 +99,7 @@ html {
     letter-spacing: .65px;
 }
 
-.navigation a {
+.navBar .navigation a {
     padding-left: 35px; /* 30px */
     color: #FFFFFF;
     text-decoration: none;
@@ -298,7 +310,7 @@ html {
 
 .codeAnalysis .three {
     position: relative;
-    padding-top: 155px;
+    padding-top: 151px;
     padding-left: 173px;
     height: 200px;
 }
@@ -317,7 +329,187 @@ html {
     position: relative;
     margin-top: -325px;
     float: right;
-    padding-right: 158px;
-    height: 400px;
+    padding-right: 155px;
+    height: 385px;
 }
 
+/* Why Dasher? */
+
+.why {
+    position: relative;
+    margin-top: 170px; /* 41px */
+    background-image: url("assets/images/footerBackground.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 980px;
+}
+
+.why h1 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 105px;
+    font-weight: 100;
+    font-size: 31px;
+    letter-spacing: 1.1px;
+    color: #FFFFFF;
+}
+
+.why h1 span {
+    font-family: FoundersGrotesk-Medium;
+    font-weight: 100;
+}
+
+.why h1 {
+    font-family: FoundersGrotesk-Light;
+}
+
+.features h3 {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: center;
+    font-family: FoundersGrotesk-Medium;
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+}
+
+.features p {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    width: 290px;
+    font-family: Roboto-Light;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: .9px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: .75;
+}
+
+.features {
+    position: relative;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.hiring, .screening, .integration {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.screening {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.target, .search, .hierarchy {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 90px;
+}
+
+.lastPitchWrapper {
+    position: relative;
+    margin-top: 148px;
+    text-align: center;
+}
+
+.lastPitch {
+    position: relative;
+    display: inline-block;
+}
+
+.lastPitch h2 {
+    position: relative;
+    text-align: left;
+    float: left;
+    width: 350px;
+    font-family: Roboto-Light;
+    font-weight: 100;
+    font-size: 34px;
+    color: #FFFFFF;
+    letter-spacing: 1.1px;
+}
+
+.lastPitch .CTA {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 135px;
+    height: 55px;
+    width: 205px;
+    background-color: #FF294E; /* #FF4B5D */
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.lastPitch .CTA:hover {
+    background-color: #D12240;
+}
+
+footer .navigation {
+    position: absolute;
+    display: inline-block;
+    bottom: 35px;
+    padding-left: 70px;
+}
+
+footer .navigation a {
+    padding-right: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.unselected {
+    opacity: .65;
+}
+
+footer .right {
+    position: absolute;
+    right: 0px;
+    padding-right: 70px;
+    bottom: 35px;
+}
+
+footer .right p {
+    display: inline-block;
+    font-family: Roboto-Light;
+    font-size: 16px;
+    letter-spacing: .65px;
+    color: #FFFFFF;
+    opacity: .65;
+    width: 230px;
+    padding-right: 15px;
+}
+
+footer .right .social {
+    display: inline-block;
+    float: right;
+}
+
+.facebook, .github {
+    height: 21px;
+}
+
+.twitter {
+    display: inline-block;
+    top: 1px;
+    height: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
