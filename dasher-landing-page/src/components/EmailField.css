@@ -1,0 +1,48 @@
+.email-field {
+  display: flex;
+  padding-top: 25px;
+}
+
+.email-field input {
+  padding-left: 15px;
+  width: 250px;
+  height: 50px;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #7e7e7e;
+
+  outline: none;
+}
+
+.email-field input::placeholder {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #cbcbcd;
+}
+
+.email-field .early-access {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  height: 50px;
+  width: 150px;
+
+  border-radius: 5px;
+  background-color: #ff0047;
+
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.email-field .early-access:hover {
+  opacity: 0.75;
+}

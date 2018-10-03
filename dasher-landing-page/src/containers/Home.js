@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import NavBar from "../components/NavBar";
+import EmailField from "../components/EmailField";
 import "./Home.css";
 
 class Home extends Component {
@@ -9,12 +10,15 @@ class Home extends Component {
         <NavBar />
         <header>
           <div className="heading">
-            <h1>Introducing faster technical screening.</h1>
+            <h1>
+              Say goodbye to the technical interview.
+              {/*Introducing faster technical screening.*/}
+            </h1>
             <h3>
               Dasher assesses your candidate’s skills by analyzing their Github
               profile.
             </h3>
-            <div className="cta" />
+            <EmailField />
           </div>
           <img className="mockup" src="../assets/mockup.png" />
         </header>

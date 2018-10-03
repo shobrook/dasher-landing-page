@@ -16,30 +16,30 @@ header .heading {
 
 header .heading h1 {
   margin: 0px;
-  width: 290px;
+  width: 400px; /*290px;*/
 
-  font-weight: 800;
-  font-size: 29px;
+  font-weight: 600;
+  font-size: 38px; /*29px;*/
 
   color: #151515;
 }
 
 header .heading h3 {
   margin: 0px;
-  padding-top: 15px;
-  width: 315px;
+  padding-top: 20px; /*15px;*/
+  width: 420px; /*315px;*/
 
   font-weight: 300;
-  font-size: 16px;
+  font-size: 22px; /*16px;*/
 
-  line-height: 25px;
+  line-height: 30px;
 
   color: #7e7e7e;
 }
 
 header .mockup {
   position: absolute;
-  margin-top: 170px;
+  top: 150px;
   right: 0px;
   height: 525px; /*420px;*/
 }
