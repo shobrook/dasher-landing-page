@@ -1,14 +1,14 @@
 header {
   display: flex;
   align-items: center;
-  margin-top: 165px;
   width: 90%;
 }
 
 header .heading {
   position: relative;
   display: inline-block;
-  left: 5%;
+  margin-top: 190px;
+  left: 11%;
 
   font-family: "Roboto";
   letter-spacing: 1px;
@@ -39,7 +39,7 @@ header .heading h3 {
 
 header .mockup {
   position: absolute;
-  margin-top: 90px;
+  margin-top: 170px;
   right: 0px;
-  height: 420px;
+  height: 525px; /*420px;*/
 }

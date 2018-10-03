@@ -46,11 +46,15 @@ nav {
   justify-content: center;
   padding: 10px 15px 10px 15px;
   width: 110px;
-  border: 2px solid #ffffff;
+  border: 1.25px solid #ffffff;
   border-radius: 3px;
 
   cursor: pointer;
 
-  font-weight: 500;
+  font-weight: 300; /*500;*/
   color: #ffffff;
+}
+
+.nav-bar .nav-links .for-developers:hover {
+  opacity: 0.75;
 }
