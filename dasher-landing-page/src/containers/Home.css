@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 165px;
+  width: 90%;
+}
+
+header .heading {
+  position: relative;
+  display: inline-block;
+  left: 5%;
+
+  font-family: "Roboto";
+  letter-spacing: 1px;
+}
+
+header .heading h1 {
+  margin: 0px;
+  width: 290px;
+
+  font-weight: 800;
+  font-size: 29px;
+
+  color: #151515;
+}
+
+header .heading h3 {
+  margin: 0px;
+  padding-top: 15px;
+  width: 315px;
+
+  font-weight: 300;
+  font-size: 16px;
+
+  line-height: 25px;
+
+  color: #7e7e7e;
+}
+
+header .mockup {
+  position: absolute;
+  margin-top: 90px;
+  right: 0px;
+  height: 420px;
+}
