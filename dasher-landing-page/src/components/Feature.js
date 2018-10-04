@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Feature.css";
+import "./Feature.scss";
 
 class Feature extends Component {
   render() {

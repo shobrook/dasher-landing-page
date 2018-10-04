@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./EmailField.css";
+import "./EmailField.scss";
 
 class EmailField extends Component {
   render() {
