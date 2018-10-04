@@ -1,24 +1,36 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 header {
   display: flex;
   align-items: center;
   width: 90%;
+  height: 100vh;
 }
 
 header .heading {
   position: relative;
   display: inline-block;
-  margin-top: 190px;
+  padding-top: 15px;
   left: 11%;
 
   font-family: "Roboto";
   letter-spacing: 1px;
+
+  animation: fadeIn 2s forwards;
 }
 
 header .heading h1 {
   margin: 0px;
-  width: 400px; /*290px;*/
+  width: 455px; /*290px;*/
 
-  font-weight: 600;
+  font-weight: 500;
   font-size: 38px; /*29px;*/
 
   color: #151515;
@@ -42,4 +54,40 @@ header .mockup {
   top: 150px;
   right: 0px;
   height: 525px; /*420px;*/
+}
+
+.why-dasher {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*top: 750px;*/
+  width: 100%;
+  height: 600px;
+
+  background-color: #f7f7f7;
+}
+
+.why-dasher .title {
+  margin: 0px;
+  padding-top: 75px;
+  font-family: "Roboto";
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.why-dasher .features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.how-it-works {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+
+  background-color: #ffffff;
 }

@@ -1,6 +1,6 @@
 .email-field {
   display: flex;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 .email-field input {
@@ -36,6 +36,7 @@
   border-radius: 5px;
   background-color: #ff0047;
 
+  letter-spacing: 0px;
   font-family: "Roboto";
   font-size: 14px;
   color: #ffffff;
