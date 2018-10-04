@@ -45,7 +45,7 @@ class Home extends Component {
             </h3>
             <EmailField />
           </div>
-          <img className="mockup" src="../assets/mockup.png" />
+          <img className="mockup" src="../assets/mockup_v2.png" />
         </header>
         <section className="why-dasher">
           <h1 className="title">Why Dasher?</h1>
